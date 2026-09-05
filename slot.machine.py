@@ -22,7 +22,7 @@ symbol_value = {
 }
 
 def check_winnings(columns: list[list[str]], lines: int, bet: int, values: dict[str, int]) -> tuple[int, list[int]]:
-    """Evaluates the slot machine grid to calculate winnings across active lines."""
+    """Evaluate the slot machine grid to calculate winnings across active lines."""
     winnings = 0
     winning_lines = []
     
