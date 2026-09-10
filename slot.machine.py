@@ -18,7 +18,7 @@ symbol_value = {
     "A": 5,
     "B": 4,
     "C": 3,
-    "D": 2,
+    "D": 2
 }
 
 def check_winnings(columns: list[list[str]], lines: int, bet: int, values: dict[str, int]) -> tuple[int, list[int]]:
